@@ -1,3 +1,5 @@
 
-index.html: index.ascii
-	asciidoc $<
+include ../Makefile.common
+
+default: index.html
+

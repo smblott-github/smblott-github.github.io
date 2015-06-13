@@ -1,0 +1,6 @@
+
+%.html: %.ascii
+	asciidoc $<
+
+default:
+	@true
